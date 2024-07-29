@@ -1,0 +1,19 @@
+{
+  "defaultEnv": "pg",
+  "pg": {
+    "driver": "pg",
+    "host": { "ENV": "DB_HOST" },
+    "database": { "ENV": "DB_NAME" },
+    "port": { "ENV": "DB_PORT" },
+    "user": { "ENV": "DB_USERNAME" },
+    "password": { "ENV": "DB_PASSWORD" }
+  },
+  "creation": {
+    "driver": "pg",
+    "host": { "ENV": "DB_HOST" },
+    "port": { "ENV": "DB_PORT" },
+    "user": { "ENV": "DB_USERNAME" },
+    "password": { "ENV": "DB_PASSWORD" },
+    "flags": "-CONNECT_WITH_DB"
+  }
+}
