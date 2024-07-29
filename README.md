@@ -13,4 +13,5 @@ How to run:
 - Run command 'npm run db:exec' on project folder to create database and run migrations
 - Run command 'npm run start' on project folder
 - See endpoints on Postman collection file on project folder
+  See Swagger API on http://localhost:3102/api
 - Enjoy
